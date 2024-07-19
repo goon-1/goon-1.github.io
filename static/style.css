@@ -91,10 +91,15 @@ href.formatted{
 img.rounded{
     border-radius: 32px;
     vertical-align: middle;
+    transition: transform .8s;
+}
+
+img.rounded:hover{
+    transform: scale(1.05); 
 }
 
 img.navicon{
-    transition: transform .2s;
+    transition: transform .5s;
 }
 
 img.navicon:hover{
