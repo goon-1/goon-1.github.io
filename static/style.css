@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'MartianMono'; /* Name your font family */
+  src: url('MartianMono-Regular.woff2'); /* Locate the .ttf file within your directory*/
+}
+
+
+body{
+    background-image: url("background2.png");
+    background-color: black;
+    text-align: center;
+
+}
+
+h1.formatted{
+    font-family: 'MartianMono';
+    color: white;
+    text-align: center;
+
+}
+
+a.formatted{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'MartianMono';
+}
+
+p.formatted{
+    text-align: center;
+    color: white;
+    font-family: 'MartianMono';
+}
+
+p.accentformatted{
+    color: purple;
+    font-family: 'MartianMono';
+}
+
+label.formatted{
+    color: white;
+    font-family: 'MartianMono';
+}
+
+input.formatted{
+    color: black;
+    font-family: 'MartianMono';
+}
