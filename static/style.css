@@ -1,14 +1,47 @@
 @font-face {
-  font-family: 'MartianMono'; /* Name your font family */
-  src: url('MartianMono-Regular.woff2'); /* Locate the .ttf file within your directory*/
+  font-family: 'MartianMono';
+  src: url('MartianMono-Regular.woff2');
+}
+
+/* START OF DEF CONTAINER */
+.container{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: clear;
+    margin: 20px;
+}
+/* END OF DEF CONTAINER */
+
+.navcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-around;
+    background-color: clear;
+}
+
+.navitem{
+    background-color: clear;
+    margin: 0px;
+    max-height: 50px;
 }
 
 
 body{
     background-image: url("background2.png");
-    background-color: black;
-    text-align: center;
+    background-color: #000000;
+    /*text-align: center;*/
+}
 
+a{
+    text-decoration: none;
 }
 
 h1.formatted{
@@ -20,8 +53,9 @@ h1.formatted{
 
 a.formatted{
     text-align: center;
-    color: #ffffff;
+    color: white;
     font-family: 'MartianMono';
+    text-decoration: none;
 }
 
 p.formatted{
@@ -33,14 +67,45 @@ p.formatted{
 p.accentformatted{
     color: purple;
     font-family: 'MartianMono';
+    text-align: center;
 }
 
 label.formatted{
     color: white;
     font-family: 'MartianMono';
+    text-align: center;
 }
 
 input.formatted{
     color: black;
     font-family: 'MartianMono';
+    text-align: center;
 }
+
+href.formatted{
+    text-align: center;
+    color: white;
+    font-family: 'MartianMono';
+}
+
+img.rounded{
+    border-radius: 32px;
+    vertical-align: middle;
+}
+
+img.navicon{
+    transition: transform .2s;
+}
+
+img.navicon:hover{
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
